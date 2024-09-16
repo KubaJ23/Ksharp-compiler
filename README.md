@@ -7,7 +7,7 @@ When running the program using java, the first argument must be the path to the 
 
 to run program in terminal, enter:
 
-    java -cp [ **a** ] [ b ] [ c ] [ d ]
+    java -cp [ a ] [ b ] [ c ] [ d ]
     
 - **a** - classpath, where compiled `.class` file are located
 - **b** - fully qualified name of class to run: `package.path.to.program`
