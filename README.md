@@ -33,7 +33,7 @@ Example code written in my K sharp language can be found in `'./src/main/java/ex
 
 My example code includes a game of Hangman which takes input, outputs text and performs various operations. The example code is meant to be proof that my language is a capable one, and that much more complex programs could be made using it.
 
-To play the Hangman game and see that it works, simply run compile and run the file './src/main/java/example.java'.
+To play the Hangman game and see that it works, simply run compile and run the file `'./src/main/java/example.java'`.
 
 Comments can be added by using '//'.
 
@@ -42,13 +42,13 @@ The compiler shows errors with a helpful description and line number to help the
 K sharp is a type of compiler called a transpiler. It first transpiles from K sharp to Java code which can then be run with the JRE on any platform.
 
 This language has 3 standard functions that are built into the language:
-> ### print(string) -> void
+>     print(string) -> void
 > 'print' outputs text to the screen
 
-> ### read() -> string
+>     read() -> string
 > 'read' reads a string from the user
 
-> ### length(string) -> integer
+> `length(string) -> integer`
 > 'length' returns the number of characters in a string
 
 K sharp uses the following keywords: 
