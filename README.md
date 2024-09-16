@@ -7,14 +7,14 @@ When running the program using java, the first argument must be the path to the 
 
 to run program in terminal, enter:
 
-    java -cp [ a ] [ b ] [ c ] [ d ]
+        java -cp [ a ] [ b ] [ c ] [ d ]
     
 - a - classpath, where compiled .class file are located
 - b - fully qualified name of class to run: package.path.to.program
 - c - path to .ks file (don't include .ks in your path)
 - d - name of output .java file, which will be saved in the current directory (don't include .java)
 
-    e.g. java -cp code/java compiler.program code/ksharp/example example
+        e.g. java -cp code/java compiler.program code/ksharp/example example
 
 The output of the compiler can be configured easily in the code in the Program.java file
 
