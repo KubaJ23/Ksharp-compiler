@@ -27,7 +27,7 @@ and datatypes:
 
 - K sharp is meant to be easy to understand, so long expressions are evaluated from right to left for all operators to remove any complexity and ambiguity in understanding how the language evaluates expressions.
 - to represent true or false, like in C, you integers. If an integer is 0 it is 'false', otherwise it is 'true'.
-- expressions that would evaluate to booleans simply evaluate to either 0 or 1, so you could still use the output of boolean expressions in mathematical expressions.
+- expressions that would evaluate to booleans simply evaluate to either 0 or 1, so you could still use the output of boolean expressions in mathematical expressions unlike in Java.
 - you can index into a string using variable[index] which returns a new string of length 1.
 - as seen in the examples, defining the parameters for a function is minimalistic (a single ':' instead of a '(' and a ')'). I wanted function definitions to be this way as it is quicker to type and improves readability.
 - like in C, statements must end with a ';'.
