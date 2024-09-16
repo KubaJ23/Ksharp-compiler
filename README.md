@@ -7,12 +7,12 @@ When running the program using java, the first argument must be the path to the 
 
 to run program in terminal, enter:
 
-    java -cp [ a ] [ b ] [ c ] [ d ]
+    java -cp [ **a** ] [ b ] [ c ] [ d ]
     
-- a - classpath, where compiled `.class` file are located
-- b - fully qualified name of class to run: `package.path.to.program`
-- c - path to `.ks` file (don't include `.ks` in your path)
-- d - name of output `.java` file, which will be saved in the current directory (don't include `.java`)
+- **a** - classpath, where compiled `.class` file are located
+- **b** - fully qualified name of class to run: `package.path.to.program`
+- **c** - path to `.ks` file (don't include `.ks` in your path)
+- **d** - name of output `.java` file, which will be saved in the current directory (don't include `.java`)
 
 e.g.
 
@@ -62,10 +62,17 @@ Datatypes:
 - `int`
 
 K sharp is meant to be easy to understand, so long expressions are evaluated from right to left for all operators to remove any complexity and ambiguity in understanding how the language evaluates expressions.
+
 To represent `true` or `false`, like in C, you integers. If an integer is 0 it is `false`, otherwise it is `true`.
+
 Expressions that would evaluate to booleans simply evaluate to either 0 or 1, so you could still use the output of boolean expressions in mathematical expressions unlike in Java.
+
 You can index into a string using `variable[index]` which returns a new string of length 1.
+
 As seen in the examples, defining the parameters for a function is minimalistic (a single `:` instead of a `(` and a `)`). I wanted function definitions to be this way as it is quicker to type and improves readability.
+
 Like in C, statements must end with a `;`.
+
 In K sharp, the `!` operator is a 'bit not', so it will apply 'not' to each bit.
+
 A K sharp file must contain a `main` function which takes 0 arguments and has a return type of `void` as the entry point to the program
