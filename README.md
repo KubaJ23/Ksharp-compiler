@@ -35,7 +35,7 @@ My example code includes a game of Hangman which takes input, outputs text and p
 
 To play the Hangman game and see that it works, simply run compile and run the file `'./src/main/java/example.java'`.
 
-Comments can be added by using '//'.
+Comments can be added by using `//`.
 
 The compiler shows errors with a helpful description and line number to help the developer debug the code easily
 
