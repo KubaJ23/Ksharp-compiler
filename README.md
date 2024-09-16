@@ -14,7 +14,9 @@ to run program in terminal, enter:
 - c - path to .ks file (don't include .ks in your path)
 - d - name of output .java file, which will be saved in the current directory (don't include .java)
 
-      e.g. java -cp code/java compiler.program code/ksharp/example example
+e.g.
+
+    java -cp code/java compiler.program code/ksharp/example example
 
 The output of the compiler can be configured easily in the code in the Program.java file
 
