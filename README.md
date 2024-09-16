@@ -7,12 +7,21 @@ When running the program using java, the first argument must be the path to the 
 
 to run program in terminal, enter:
 java -cp [ a ] [ b ] [ c ] [ d ]
-- a - classpath, where compiled .class file are located
-- b - fully qualified name of class to run: package.path.to.program
-- c - path to .ks file (don't include .ks in your path)
-- d - name of output .java file, which will be saved in the current directory (don't include .java)
+* a - classpath, where compiled .class file are located
+* b - fully qualified name of class to run: package.path.to.program
+* c - path to .ks file (don't include .ks in your path)
+* d - name of output .java file, which will be saved in the current directory (don't include .java)
 
 e.g. java -cp code/java compiler.program code/ksharp/example example
+
+The output of the compiler can be configured easily in the code in the Program.java file
+
+By default the output of the compiler (if the K sharp code is valid) is:
+1. Code without comments
+2. Tokens
+3. Abstract Syntax Tree
+4. Symbol Table
+5. Java output
 
 ## About K sharp language
 
@@ -45,8 +54,8 @@ K sharp uses the following keywords:
 - "void"
 
 Datatypes:
-- 'string'
-- 'int'
++ 'string'
++ 'int'
 
 K sharp is meant to be easy to understand, so long expressions are evaluated from right to left for all operators to remove any complexity and ambiguity in understanding how the language evaluates expressions.
 To represent true or false, like in C, you integers. If an integer is 0 it is 'false', otherwise it is 'true'.
