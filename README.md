@@ -48,18 +48,18 @@ This language has 3 standard functions that are built into the language:
 >     read() -> string
 > 'read' reads a string from the user
 
-> `length(string) -> integer`
+>     length(string) -> integer
 > 'length' returns the number of characters in a string
 
 K sharp uses the following keywords: 
-- "if"
-- "while"
-- "return"
-- "void"
+- if
+- while
+- return
+- void
 
 Datatypes:
-- 'string'
-- 'int'
+- `string`
+- `int`
 
 K sharp is meant to be easy to understand, so long expressions are evaluated from right to left for all operators to remove any complexity and ambiguity in understanding how the language evaluates expressions.
 To represent true or false, like in C, you integers. If an integer is 0 it is 'false', otherwise it is 'true'.
