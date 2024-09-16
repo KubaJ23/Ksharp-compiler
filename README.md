@@ -1,7 +1,26 @@
 # Ksharp-compiler
 A compiler (transpiler) for my own language called K sharp. It is a procedural language that is meant to be easy to understand and quick to learn.
 
+## Running the compiler
+
+When running the program using java, the first argument must be the path to the .ks file to read, the second argument must be the name of the output file you would like. The output file will be placed in the current directory.
+
+to run program in terminal, enter:
+java -cp [a] [b] [c] [d]
+- a - classpath, where compiled .class file are located
+- b - fully qualified name of class to run: package.path.to.program
+- c - path to .ks file (don't include .ks in your path)
+- d - name of output .java file, which will be saved in the current directory (don't include .java)
+
+e.g. java -cp code/java compiler.program code/ksharp/example example
+
+## About K sharp language
+
 Example code written in my K sharp language can be found in './src/main/java/example.ks', the compiled version of that example can be found at './src/main/java/example.java'.
+
+My example code includes a game of Hangman which takes input, outputs text and performs various operations. The example code is meant to be proof that my language is a capable one, and that much more complex programs could be made using it.
+
+To play the Hangman game and see that it works, simply run compile and run the file './src/main/java/example.java'.
 
 Comments can be added by using '//'.
 
