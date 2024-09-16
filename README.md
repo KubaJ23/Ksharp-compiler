@@ -52,10 +52,10 @@ This language has 3 standard functions that are built into the language:
 > 'length' returns the number of characters in a string
 
 K sharp uses the following keywords: 
-- if
-- while
-- return
-- void
+- `if`
+- `while`
+- `return`
+- `void`
 
 Datatypes:
 - `string`
