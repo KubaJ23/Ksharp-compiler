@@ -6,7 +6,7 @@ A compiler (transpiler) for my own language called K sharp. It is a procedural l
 When running the program using java, the first argument must be the path to the .ks file to read, the second argument must be the name of the output file you would like. The output file will be placed in the current directory.
 
 to run program in terminal, enter:
-java -cp [a] [b] [c] [d]
+java -cp [ a ] [ b ] [ c ] [ d ]
 - a - classpath, where compiled .class file are located
 - b - fully qualified name of class to run: package.path.to.program
 - c - path to .ks file (don't include .ks in your path)
