@@ -29,7 +29,7 @@ By default the output of the compiler (if the K sharp code is valid) is:
 
 ## About K sharp language
 
-Example code written in my K sharp language can be found in './src/main/java/example.ks', the compiled version of that example can be found at './src/main/java/example.java'.
+Example code written in my K sharp language can be found in `'./src/main/java/example.ks'`, the compiled version of that example can be found at `'./src/main/java/example.java'`.
 
 My example code includes a game of Hangman which takes input, outputs text and performs various operations. The example code is meant to be proof that my language is a capable one, and that much more complex programs could be made using it.
 
